@@ -14,31 +14,31 @@
             <p class="card-description">Generate your crypto keys</p>
         </div>
 
-        <div class="generate-keys-btn">
+        <div id="generateKeysBtn" class="generate-keys-btn">
             Generate New Keys
         </div>
 
         <div class="public-key-div">
             <p class="public-text">Public Key</p>
-            <input class="public-input" type="text" readonly>
+            <input id="publicKey" class="public-input" type="text" readonly>
         </div>
 
         <div class="private-key-div">
-            <p class ="private-text">Private Key</p>
-            <input class="private-input" type="password" readonly>
+            <p class="private-text">Private Key</p>
+            <input id="privateKey" class="private-input" type="password" readonly>
         </div>
 
         <div class="msg-div">
-            <p class ="msg-text">Message to sign</p>
-            <textarea name="Enter Your message here" id="msg-area"></textarea>
+            <p class="msg-text">Message to sign</p>
+            <textarea id="message" placeholder="Enter your message here" id="msg-area"></textarea>
         </div>
 
         <div class="auth-box">
-            <div class="sign-btn">
+            <div id="signBtn" class="sign-btn">
                 Sign Message
             </div>
     
-            <div class="verify-btn">
+            <div id="verifyBtn" class="verify-btn">
                 Verify Message
             </div>
         </div>
@@ -48,6 +48,8 @@
         </div>
         
     </div>
-    
+
+    <script src="script.js"></script>
+
 </body>
 </html>
