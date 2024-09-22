@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: #FFFFFF;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border: 1px solid  #E2E8F0;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    width: 100%;
+    max-width: 448px;
+    padding: 24px;
+    gap: 16px;
+    border-radius: 8px;
+}
+
+.card-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: left;
+    color: #0F172A;
+}
+
+.card-description{
+    font-size: 0.875rem;
+    color: #64748B;
+}
+
+.generate-keys-btn{
+    background-color: black;
+    height: 40px;
+    color: #FFFFFF;
+    padding: 8px 16px;
+    text-align: center;
+    border-radius: 8px;
+    
+}
+
+.generate-keys-btn:hover{
+    cursor: pointer;
+    background-color: #1e2023;
+}
+
+
+.public-input{
+    width: 400px;
+    background-color: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    color: #0F172A;
+    padding: 8px 12px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+
+.public-text{
+    padding: 8px 12px;
+}
+
+.private-input{
+    width: 400px;
+    background-color: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    color: #0F172A;
+    padding: 8px 12px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+
+.private-text{
+    padding: 8px 12px;
+}
+
+.public-input:focus, .private-input:focus {
+    outline: none;
+    border-color: #969294; 
+    box-shadow: 0 0 0 2px rgba(150, 146, 148, 0.2); 
+}
+
+#note{
+    font-size: 14px;
+    color:  #64748B;
+}
