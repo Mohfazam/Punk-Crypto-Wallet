@@ -101,3 +101,46 @@ body{
     font-size: 14px;
     color:  #64748B;
 }
+
+.msg-text{
+    padding: 8px 12px;
+}
+
+#msg-area{
+    width: 400px;
+    min-height: 4rem;
+    background-color: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    color: #0F172A;
+    padding: 8px 12px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.auth-box{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+    gap: 1rem;
+}
+
+.sign-btn{
+    background-color: black;
+    height: 40px;
+    width: 12rem;
+    color: #FFFFFF;
+    padding: 8px 16px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.verify-btn{
+    background-color: black;
+    height: 40px;
+    width: 12rem;
+    color: #FFFFFF;
+    padding: 8px 16px;
+    text-align: center;
+    border-radius: 8px;
+}
